@@ -94,7 +94,7 @@ a fixed value of the transition matrix, Q, instead of by sampling Q from its pos
  Calling \code{sfreemap} with a single tree (\code{phylo} object) and \code{M}
  \code{Q} matrices will result in \code{M} mapped trees, replicas of the single
  tree with the algorithm applied to it using all \code{Q} matrices. Same logic
- applies to \code{prior} as well. It is important to note though that it you
+ applies to \code{prior} as well. It is important to note though that if you
  pass on \code{N > 1} trees and \code{M > 1} rate matrices (or priors), \code{M}
   and \code{N} should be equal.
 }
